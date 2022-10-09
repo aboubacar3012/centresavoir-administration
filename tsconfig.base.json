@@ -15,7 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@santou/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@santou/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@santou/batch": ["libs/batch/src/index.ts"],
+      "@santou/campus": ["libs/campus/src/index.ts"],
+      "@santou/models": ["libs/models/src/index.ts"],
+      "@santou/stack": ["libs/stack/src/index.ts"],
+      "@santou/user": ["libs/user/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
